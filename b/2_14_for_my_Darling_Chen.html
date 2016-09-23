@@ -1,0 +1,74 @@
+<html>
+<head>  
+<title>Heart for my Darling Chen</title> 
+<meta charset="UTF-8">  
+</head>  
+<body>  
+<h1>Dynamical Models of Love</h1>
+<h2>Following a suggestion of my dear father, this webpage describes a dynamical model involving coupled ordinary<br> differential
+equations describing the time-variation of the love between Chen and Guo in a romantic relationship. <br>
+The model starts with the initial state and current status
+of them and advances to predict the future and finally<br>
+ is shown to NOT produce chaos, which is what I have been expecting!</h2>
+<br></br>
+
+<h2>initial state:</h2>
+<h2><ul>
+    <li>waiting too long to know you on August 31st,2015 (167 days)</li>
+    <li>first formal luncheon on January 1st, 2016 (44 days)</li>
+    <li>first time to study together on January 10th, 2016 (35 days)</li>
+	<li>first romantic experience on January 12th, 2016 (33days)</li>
+</ul></h2>
+
+<h2>current state:</h2>
+<h2><ul>
+    <li>falling in love on January 15th, 2015 (30 days)</li>
+</ul></h2>
+
+<h2>dynamical equations:</h2>
+<h2><ul>
+    <li>Newton's law?</li>
+    <li>Maxwell's equations?</li>
+    <li>Schrodinger's equation?</li>
+	<li>General relativity?</li>
+	<li><bm>Just the one showing the following prediction!</bm></li>
+	
+</ul></h2>
+
+<h2>my most expected prediction:</h2>
+<h2><ul>
+    <li>Forever and No Chaos!</li>
+</ul></h2>
+
+<h2><p>The following is what I wanna give my Honey Chen. Maybe I cannot become a soldier standing on sand, or another wave<br>
+  in the ocean, which is my father's
+expectation for me, but I wanna be the one you run to when you need a shoulder<br>
+ and I am just here to take a stand for my darling. Even in the dark, just hand 
+in hand and my heart aroud you!</h2></p>  
+<canvas id="c"></canvas>  
+<script>  
+var c = document.getElementsByTagName('canvas')[0];
+var a = c.getContext('2d');   
+</script> 
+
+
+<script>
+e=[];h=[];O=c.width=innerWidth;Q=c.height=innerHeight;v=32;M=Math;R=M.random;C=M.cos;Y=6.3;for(i=0;i<Y;i+=0.2)h.push([O/2+180*M.pow(M.sin(i),3),Q/2+10*-(15*C(i)-5*C(2*i)-2*C(3*i)-C(4*i))]);
+for(i=0;i<v;){x=R()*O;y=R()*Q;H=80*(i/v)+280;S=40*R()+60;B=60*R()+20;f=[];for(k=0;k<v;)f[k++]={x:x,y:y,X:0,Y:0,R:1-k/v+1,S:R()+1,q:~~(R()*v),D:2*(i%2)-1,F:0.2*R()+0.7,f:"hsla("+~~H+","+~~S+"%,"+~~B+"%,.1)"};e[i++]=f}
+function _(d){a.fillStyle=d.f;a.beginPath();a.arc(d.x,d.y,d.R,0,Y,1);a.closePath();a.fill()}
+setInterval(function(){a.fillStyle="rgba(0,0,0,.2)";a.fillRect(0,0,O,Q);for(i=v;i--;){f=e[i];u=f[0];q=h[u.q];D=u.x-q[0];E=u.y-q[1];G=M.sqrt(D*D+E*E);10>G&&(0.95<R()?u.q=~~(R()*v):(0.99<R()&&(u.D*=-1),u.q+=u.D,u.q%=v,0>u.q&&(u.q+=v)));u.X+=-D/G*u.S;u.Y+=-E/G*u.S;u.x+=u.X;u.y+=u.Y;_(u);u.X*=u.F;u.Y*=u.F;for(k=0;k<v-1;)T=f[k],N=f[++k],N.x-=0.7*(N.x-T.x),N.y-=0.7*(N.y-T.y),_(N)}},25);
+</script>
+
+<h2><p>And the following is the code I wanna you to find. Just try and I am with you, and then you can get it!</h2></p> 
+<p>
+<h2>99669999996669999996699666699666999966699666699<br></h2>
+<h2>99669999996669999996699666699666999966699666699<br></h2>
+<h2>99699999999699999999699666699669966996699666699<br></h2>
+<h2>99669999999999999996699666699699666699699666699<br></h2>
+<h2>99666699999999999966666999966699666699699666699<br></h2>
+<h2>99666666999999996666666699666699666699699666699<br></h2>
+<h2>99666666669999666666666699666669966996699666699<br></h2>
+<h2>99666666666996666666666699666666999966669999996<br></h2>
+</p>
+</body>
+</html>
